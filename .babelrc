@@ -1,0 +1,14 @@
+{
+  "presets": ["babel-preset-expo", "react-native"],
+  "plugins": [
+    // ["react-native-web", { commonjs : true}],
+    // ["expo-web"],
+    // ["transform-decorators-legacy"],
+    // ["transform-runtime", {helpers: false, polyffill: false, regenerator: true  }]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
